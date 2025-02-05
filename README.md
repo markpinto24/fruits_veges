@@ -25,4 +25,4 @@ The dashboard provides insights into **farm prices, retail prices, and average s
 ![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)  
 
 ## 📷 Sample Visualization  
-![Dashboard Preview](./Visualization/demo-visualization.pdf)  
+![Dashboard Preview](./Visualization/demo-visualization.png)  
