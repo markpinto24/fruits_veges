@@ -1,0 +1,4 @@
+.gitattributes
+Reports/*.pbix linguist-vendored
+Reports/*.pbit linguist-vendored
+DataSources/*.sql linguist-detect
