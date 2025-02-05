@@ -1,4 +1,14 @@
-.gitattributes
-Reports/*.pbix linguist-vendored
-Reports/*.pbit linguist-vendored
-DataSources/*.sql linguist-detect
+# Ensure SQL files are detected as a primary language
+*.sql linguist-detect
+
+# Exclude Power BI binary files (.pbix, .pbit) from GitHub language stats
+*.pbix linguist-vendored
+*.pbit linguist-vendored
+
+# Ignore large export files (optional)
+Exports/*.pdf linguist-generated
+Exports/*.png linguist-generated
+
+# Ensure JSON, YAML files count properly if used
+*.json linguist-detect
+*.yml linguist-detect
