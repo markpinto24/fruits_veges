@@ -1,14 +1,18 @@
-# Ensure SQL files are detected as a primary language
+# Detect SQL as a primary language
 *.sql linguist-detect
 
-# Exclude Power BI binary files (.pbix, .pbit) from GitHub language stats
+# Detect PNG images
+*.png linguist-detect
+
+# Exclude Power BI binary files from language stats
 *.pbix linguist-vendored
 *.pbit linguist-vendored
 
-# Ignore large export files (optional)
+# Ignore large export files
 Exports/*.pdf linguist-generated
+Exports/*.jpg linguist-generated
 Exports/*.png linguist-generated
 
-# Ensure JSON, YAML files count properly if used
+# Ensure JSON and YAML files are counted properly
 *.json linguist-detect
 *.yml linguist-detect
