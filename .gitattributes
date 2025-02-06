@@ -4,9 +4,6 @@
 # Ensure PNG images are included in language stats
 *.png linguist-detect
 
-# Detect PNG images
-*.png linguist-detect
-
 # Exclude Power BI binary files from language stats
 *.pbix linguist-vendored
 *.pbit linguist-vendored
