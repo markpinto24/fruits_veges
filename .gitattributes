@@ -1,6 +1,9 @@
 # Detect SQL as a primary language
 *.sql linguist-detect
 
+# Ensure PNG images are included in language stats
+*.png linguist-detect
+
 # Detect PNG images
 *.png linguist-detect
 
